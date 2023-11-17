@@ -14,7 +14,7 @@ import SectionTitle from '../../Components/SectionTitle';
 
 const Category = () => {
     return (
-        <div>
+        <section>
             <SectionTitle subheading={`From 11:00am to 10:00pm`} heading={`Order online`}></SectionTitle>
             <Swiper
                 slidesPerView={4}
@@ -32,7 +32,7 @@ const Category = () => {
                 <SwiperSlide><img src={slide4} alt="" /><h3 className='text-4xl uppercase text-center -mt-16 text-white'>desserts</h3></SwiperSlide>
                 <SwiperSlide><img src={slide5} alt="" /><h3 className='text-4xl uppercase text-center -mt-16 text-white'>Salads</h3></SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 }
 
