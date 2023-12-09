@@ -1,6 +1,8 @@
 import React from 'react';
 import MenuItem from '../../Components/MenuItem';
 import Cover from '../../Components/Cover';
+import { Link } from 'react-router-dom';
+import Button from '../../Components/Button';
 
 const Menucategory = ({title,items,img}) => {
     // console.log(items);
@@ -14,6 +16,11 @@ const Menucategory = ({title,items,img}) => {
                 }
                 
             </div>
+            <Link to={`/order/${title}`}><Button text={'Order Now'} style={'text-black'}></Button></Link>
+{/* <Button text={'View Full Item'} style={'text-black'}></Button>
+<Button text={'View Full Item'} style={'text-black'}></Button>
+<Button text={'View Full Item'} style={'text-black'}></Button>
+<Button text={'View Full Item'} style={'text-black'}></Button> */}
         </div>
     );
 };

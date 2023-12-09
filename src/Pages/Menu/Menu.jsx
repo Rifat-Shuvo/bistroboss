@@ -23,27 +23,27 @@ const Menu = () => {
             <SectionTitle subheading={'Do not Miss'} heading={"Today's Offer"}></SectionTitle>
             {/* offered items */}
             <Menucategory items={offered}></Menucategory>
-            <Button text={'View Full Item'} style={'text-black'}></Button>
+
             {/* dessertItems */}
             <Menucategory items={desserts}
-                title={'Dessert'} img={dessert}
+                title={'dessert'} img={dessert}
             ></Menucategory>
-            <Button text={'View Full Item'} style={'text-black'}></Button>
+
             {/* PizzaItems */}
             <Menucategory items={pizza}
-                title={'Pizza'} img={pizzas}
+                title={'pizza'} img={pizzas}
             ></Menucategory>
-            <Button text={'View Full Item'} style={'text-black'}></Button>
+
             {/* dessertItems */}
             <Menucategory items={salad}
-                title={'Salad'} img={salads}
+                title={'salad'} img={salads}
             ></Menucategory>
-            <Button text={'View Full Item'} style={'text-black'}></Button>
+
             {/* dessertItems */}
             <Menucategory items={soup}
-                title={'Soup'} img={soups}
+                title={'soup'} img={soups}
             ></Menucategory>
-            <Button text={'View Full Item'} style={'text-black'}></Button>
+
 
 
         </div>
